@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Модальное окно</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="popup/popup.css">
+</head>
+<body>
+    <div class="overlay">
+        <div class="modal"></div>
+    </div>
+    <button type="button" class="callme" value="Обратный звонок">Обратный звонок</button>
+
+    <div class="callme_popup">
+        <form class="for-callme-popup" action="" method="post">
+            <div>
+                <label for="">Имя:
+                    <input type="text" name="" id="">
+                </label>
+            </div>
+            <div>
+                <label for="">Телефон:
+                    <input type="tel" name="" id="">
+                </label>
+            </div> 
+            <div>
+                <label for="">Email:
+                    <input type="email" name="" id="">
+                </label>
+            </div>  
+            <div><input type="submit" value="Отправить"></div>
+        </form>
+    </div>
+
+    <script src="popup/popup.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -14,4 +14,10 @@ window.onload = function() {
         // загружаем HTML код формы в pop-up
         popUp.open(form.innerHTML);
     }
+
+    document.querySelector('.send').onclick = function() {
+        let form =document.querySelector('.msg_popup');
+        
+        popUp.open(form.innerHTML);
+    }
 }

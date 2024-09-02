@@ -11,7 +11,13 @@
     <div class="overlay">
         <div class="modal"></div>
     </div>
-    <button type="button" class="callme" value="Обратный звонок">Обратный звонок</button>
+    <p>
+        <button type="button" class="callme" value="Обратный звонок">Обратный звонок</button>
+    </p>
+    <p>
+        <button type="button" class="send" value="Написать сообщение">Написать сообщение</button>
+    </p>
+    
 
     <div class="callme_popup">
         <form class="for-callme-popup" action="" method="post">
@@ -28,6 +34,22 @@
             <div>
                 <label for="">Email:
                     <input type="email" name="" id="">
+                </label>
+            </div>  
+            <div><input type="submit" value="Отправить"></div>
+        </form>
+    </div>
+
+    <div class="msg_popup">
+        <form class="for-callme-popup" action="" method="post">
+            <div>
+                <label for="">Имя:
+                    <input type="text" name="" id="">
+                </label>
+            </div>
+            <div>
+                <label for="">Сообщение:
+                    <textarea name="" id="" cols="30"></textarea>
                 </label>
             </div>  
             <div><input type="submit" value="Отправить"></div>

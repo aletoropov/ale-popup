@@ -1,3 +1,7 @@
 .callme_popup {
     display: none;
 }
+
+.msg_popup {
+    display: none;
+}
